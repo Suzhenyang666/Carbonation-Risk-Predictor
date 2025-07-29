@@ -1,0 +1,45 @@
+=== Point Type Evaluation Report (No Point Type Feature) ===
+
+Data Distribution:
+Total points in test set: 218
+Normal points (Type 0): 112
+Abnormal points (Type 1): 106
+Point type is NOT used as input feature
+
+=== Metrics for All Points ===
+R2: 0.8356
+RMSE: 0.1105
+MAE: 0.0569
+MAPE: 7.5586
+RelativeStd: 13.4881
+Bias: -0.0004
+Valid points: 218/218
+
+=== Metrics for Normal Points (Type 0) ===
+R2: 0.8362
+RMSE: 0.1342
+MAE: 0.0812
+MAPE: 11.9351
+RelativeStd: 16.5482
+Bias: 0.0219
+Valid points: 112/112
+
+=== Metrics for Abnormal Points (Type 1) ===
+R2: -1.0762
+RMSE: 0.0778
+MAE: 0.0312
+MAPE: 3.3472
+RelativeStd: 7.5707
+Bias: -0.0240
+Valid points: 106/106
+
+Prediction Distribution:
+Normal Points (Type 0):
+  Actual range: [0.0094, 1.0000]
+  Predicted range: [0.0356, 1.0000]
+  Mean absolute error: 0.0812
+
+Abnormal Points (Type 1):
+  Actual range: [0.7001, 1.0000]
+  Predicted range: [0.4833, 1.0000]
+  Mean absolute error: 0.0312
