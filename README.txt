@@ -3,15 +3,15 @@ Carbonation Risk Predictor v1.0 - User Guide
 ========================================================================
 
 CONTENTS:
-  ✓ CarbonationRiskPredictor_v1.1.exe  (Application)
-  ✓ lightgbm_model_20250721_215231.joblib  (Default Model)
+  ✓ CarbonationRiskPredictor_v1.0.exe  (Application)
+  ✓ lightgbm_model_20250721_163433.joblib  (Default Model)
   ✓ README.txt  (This file)
 
 INSTALLATION:
   No installation required! This is a portable application.
   
   1. Keep both files in the same folder
-  2. Double-click CarbonationRiskPredictor_v1.1.exe to run
+  2. Double-click CarbonationRiskPredictor_v1.0.exe to run
 
 USAGE:
   1. Input Parameters:
@@ -61,11 +61,11 @@ TROUBLESHOOTING:
 MODEL INFORMATION:
   • LightGBM Regression Model
   • 51 decision trees, max depth 8
-  • Performance: R² = 0.8401, RMSE = 0.1089
+  • Performance: R² = 0.8356, RMSE = 0.1105
   • Training date: July 21, 2025
 
 SUPPORT:
-  For technical support, please contact the development team.
+  For technical support, please contact the author.
 
 ========================================================================
 © 2025 Carbonation Risk Predictor
